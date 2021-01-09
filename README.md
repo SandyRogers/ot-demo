@@ -18,7 +18,7 @@ Please call our demo API - https://demo6922545.mockable.io/ - and using the resp
    - Gene ID
    - Gene Name
    - Overall Association Score
-   
+
 ![Open Targets Front End Technical Test Specification - step 1](https://user-images.githubusercontent.com/7490258/85530357-c9813000-b605-11ea-9cd0-c5f7abe1f501.png)
 
 2. When a user clicks the "+", expand the row of the table and show a bar chart and a radar chart with the association scores for each individual data type - `literature`, `rna_expression`, `genetic_association`, `somatic_mutation`, `known_drug`, `animal_model`, and `affected_pathway`.
@@ -55,8 +55,8 @@ The page will reload if you make edits. You will also see any lint errors in the
 
 #### `yarn build`
 
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. 
+Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes. 
+The build is minified and the filenames include the hashes.
 
 Your app is ready to be deployed! See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.

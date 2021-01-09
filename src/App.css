@@ -1,6 +1,10 @@
 .App {
-  align-items: center;
+  align-items: flex-start;
+  padding: 20px;
   display: flex;
   justify-content: center;
   min-height: 100vh;
+  /* Brand font for Open Targets */
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+  font-family: "Inter", sans-serif;
 }
