@@ -1,7 +1,7 @@
-import {Bar} from "@nivo/bar";
+import { Bar } from "@nivo/bar";
 import React from "react";
-import {otTheme} from "../styles/theme";
-import {ChartHolder, useAssociationChartData} from "./chart-utils";
+import { otTheme } from "../styles/theme";
+import { ChartHolder, useAssociationChartData } from "./chart-utils";
 
 export const OpenTargetsBarChart = ({ data, geneSymbol }) => {
   const chartData = useAssociationChartData(data, geneSymbol);
